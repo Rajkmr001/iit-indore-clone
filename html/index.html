@@ -1,0 +1,640 @@
+<html>
+<head>
+   
+    <title>IIT Indore, भारतीय प्रौद्योगिकी संस्थान इंदौर </title>
+    <style type="text/css">
+        body{
+            margin:0;
+        }
+        #mainarea{
+            width: 1500px;
+            height: auto;
+            background: #34495e;
+            margin:0 auto;
+        }
+        #titlearea{
+            width:1500px;
+            height:65px;
+            background:#34495e;
+            float: left;
+        }
+        #menuarea{
+            width:1500px;
+            height:100px;
+            background:white;
+            float: left;
+            position: sticky;
+            top:0;
+            z-index: 1000000000;
+            }
+            #m1{
+                width:270px;
+            height:100px;
+            background:white;
+            float: left;
+            }
+            #m2{
+                width:1230px;
+            height:100px;
+            background:white;
+            float: right;
+            }
+                #m2 ul{
+                            list-style:none;
+                            margin:0px;
+                            padding: 20px;
+                            
+                        }
+                #m2 ul li {
+                            float:left;
+                            border-right:solid 1px white;
+                            
+                        }
+                #m2 ul li a:link{
+                            color:blue;
+                            text-decoration: none;
+                            background: white;
+                            display: block;
+                            padding: 20px;
+                            border-bottom: solid 0px rgb(243, 245, 243);
+                }
+                #m2 ul li a:hover{
+                            text-decoration: underline;
+                            
+                }
+                #m2 ul li ul{
+						display:none;
+                        
+                       
+					}
+                #m2 ul li:hover ul{
+						display:block;
+						position:absolute;
+						z-index:1000;
+                        
+                       
+                }
+                #m2 ul li:hover ul li{
+						float:none;
+                        height: 30px;
+                        
+					}
+                
+        #picarea{
+            width:1500px;
+            height:680px;
+            background:#34495e;
+            float: none;
+        }
+            #pic1{
+                width: 1000px;
+                height: 580px;
+                background:blue; 
+                float: none;
+                margin: 10px  250px;
+            }
+            #pic2{
+                width: 1000px;
+                height: 60px;
+                background: #34495e;
+                margin: 10px 250px;
+            }
+        #vidarea{
+            width:1500px;
+            height:680px;
+            background:white; 
+        }
+            #vid1{
+                width: 1000px;
+                height: 60px;
+                background: white;
+                margin: 10px 250px;
+
+            }
+            #vid2{
+                width: 1000px;
+                height: 580px;
+                background:black; 
+                float: none;
+                margin: 10px  250px;
+            }
+        #eventarea{
+            width:1500px;
+            height:680px;
+            background:#d7f7f0;
+            float: left;
+        }
+            #eventheader{
+                width: 1480px;
+                height: 60px;
+                margin: 10px 20px;
+                background: #d7f7f0;
+                float: left;
+            }
+                #eventheader h1{
+                    text-align:center;
+                }
+               
+            #event1{
+                width:335px;
+            height:580px;
+            background:white; 
+            float: left;
+            margin:10px 20px;
+            }
+            #event2{
+                width:335px;
+            height:580px;
+            background:white; 
+            margin:10px 20px;
+            float: left;
+            }
+            #event3{
+                width:335px;
+            height:580px;
+            background:#d7f7f0; 
+            margin:10px 20px;
+            float: left;
+            }
+            #event4{
+                width:335px;
+            height:580px;
+            background: #d7f7f0; 
+            margin:10px 20px;
+            float: right;
+            }
+            .halfbox{
+                width:315px;
+            height:270px;
+            background:#FFFFFF; 
+            margin:20px;
+            float:down;
+
+            }
+        #newsarea{
+            width:1500px;
+            height:680px;
+            background:#34495e;  
+            float: left;
+        }
+            #newsheader{
+                width: 1480px;
+                height: 60px;
+                margin: 10px 20px;
+                background: #34495e;
+                float: left;
+            }
+            #news1{
+                width:335px;
+            height:580px;
+            background:#FFFFFF; 
+            margin:10px 20px;
+            float: left;   
+            }
+            #news2{
+                width:335px;
+            height:580px;
+            background:#FFFFFF; 
+            margin:10px 20px;
+            float: left;   
+            }
+            #news3{
+                width:335px;
+            height:580px;
+            background:#FFFFFF; 
+            margin:10px 20px;
+            float: left;   
+            }
+            #news4{
+                width:335px;
+            height:580px;
+            background:#FFFFFF; 
+            margin:10px 20px;
+            float: right;   
+            }
+        #proarea{
+            width:1500px;
+            height:680px;
+            background:white;  
+        }
+            #proheader{
+                width: 1480px;
+                height: 60px;
+                margin: 10px 20px;
+                background: rgb(170, 196, 245);
+                float: left;
+            }
+            #pro1{
+                width:335px;
+            height:580px;
+            background:white; 
+            margin:10px 20px;
+            float: left;  
+            }
+            #pro2{
+                width:335px;
+            height:580px;
+            background:#FFFFFF; 
+            margin:10px 20px;
+            float: left;  
+            }
+            #pro3{
+                width:335px;
+            height:580px;
+            background:#FFFFFF; 
+            margin:10px 20px;
+            float: left;  
+            }
+            #pro4{
+                width:335px;
+            height:580px;
+            background:#FFFFFF; 
+            margin:10px 20px;
+            float: right;  
+            }
+        #reacharea{
+            width: 1500px;
+            height: 600px;
+            background: rgb(150, 189, 233);
+            float: left;
+        }
+            #reachbox{
+                width: 1084px;
+                height: 444px;
+                margin: 78px 208px;
+            }
+        #glimpsarea{
+            width: 1500px;
+            height: 680px;
+            background:#d7f7f0;
+            float: left;
+        }
+            #glimpsheader{
+                width: 1480px;
+                height: 60px;
+                margin: 10px 20px;
+                background: #d7f7f0;
+                float: left;
+            }
+            #glimps1{
+                width:335px;
+            height:580px;
+            background:#FFFFFF; 
+            margin:10px 20px;
+            float: left;  
+            }
+            #glimps2{
+                width:335px;
+            height:580px;
+            background:#FFFFFF;
+            margin:10px 20px; 
+            float: left;  
+            }
+            #glimps3{
+                width:335px;
+            height:580px;
+            background:#FFFFFF; 
+            margin:10px 20px;
+            float: left;  
+            }
+            #glimps4{
+                width:335px;
+            height:580px;
+            background:#FFFFFF; 
+            margin:10px 20px;
+            float: right;  
+            }
+        #linksarea{
+            width: 1500px;
+            height: 100px;
+            background: white;
+            float: left;
+        }
+        #marquearea{
+            width: 1500px;
+            height: 70px;
+            background: rgb(56, 54, 54);
+            float: left;
+        }
+        
+    </style>
+</head>
+<body>
+       <div id="mainarea">
+        <div id="titlearea">
+            <h2><font color="white">भारतीय प्रौद्योगिकी संस्थान इंदौर Indian Institute of Technology Indore &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; हिंदी | | Contribute to IIT Indore</font></h2>
+            
+        </div>
+        <div id="menuarea">
+            <div id="m1">
+               <img src="update-logo.png" alt="" height="150px" width="205px">
+            </div>
+            <div id="m2">
+               <ul>
+                    <li><a href="https://academic.iiti.ac.in/">Academics</a></li>
+                    <li><a href="https://rnd.iiti.ac.in/">Research</a></li>
+                    <li><a href="https://ir.iiti.ac.in/#/">International</a></li>
+                    <li><a href="">Administration </a>
+                        <ul>
+                            <li><a href="">Chairperson, (BOG) </a></li>
+                            <li><a href="">Former Chairpersons, BoG</a></li>
+                            <li><a href="">Board of Governors</a></li>
+                            <li><a href="">Finance Committee</a></li>
+                            <li><a href="">Senate</a></li>
+                            <li><a href="">Building And Works</a></li>
+                            <li><a href="">Committee</a></li>
+                            <li><a href="">Director</a></li>
+                            <li><a href="">Office of Director</a></li>
+                            <li><a href="">Former Directors</a></li>
+                            <li><a href="">Institute Functionaries</a></li>
+                            <li><a href="">Institute Committees</a></li>
+                            <li><a href="">Office of Registrar</a></li>
+                            <li><a href="">Administrative Staff</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="">Departments</a>
+                        <ul>
+                            <li><a href="">Centers</a></li>
+                            <li><a href="">Departments</a></li>
+                            <li><a href="">LRC</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://studentaffairs.iiti.ac.in/">Students</a></li>
+                    <li><a href="">Alumni & Corporates </a>
+                        <ul>
+                            <li><a href="">Alumni Relations</a></li>
+                            <li><a href="">Corporate RElation</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="https://www.iiti.ac.in/notification_bis">BIS Corner</a></li>
+                    <li><a href="https://www.iiti.ac.in/recruitments/faculty-positions">Career@IITI</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="picarea">
+            <div id="pic1">
+                <img src="top pic.jpg" alt="" width="1000px" height="430px">
+            </div>
+            <div id="pic2">
+                <h2><font color="white">Diversion of Route Towards IIT Indore due to Damage
+                     of the Connecting Road in Simrol Village   Anti-Ragging Details View</font></h2>
+            </div>
+        </div>
+        <div id="vidarea">
+            <div id="vid1">
+                <h1 align="Center">Institute Campus Video</h1>
+            </div>
+            <div id="vid2">
+                <video src="" height="100%" width="100%" autoplay controls loop></video>
+            </div>
+        </div>
+        <div id="eventarea">
+            <div id="eventheader">
+                <h1><font color="black">Events</font></h1>
+                
+
+            </div>
+            <div id="event1">
+                <img src="event_1.jpeg" alt="" height="50%" width="100%">
+                <div class="halfbox">
+                    <h2>38th Inter IIT Aquatics
+                        Meet 2024
+                    </h2>
+                    <p><font color="blue">1-5 October 2024</font></p>
+                    <h3>38th Inter IIT Aquatics Meet
+                        2024</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div id="event2">
+                <img src="event_2.jpg" alt="" height="50%" width="100%">
+                <div class="halfbox">
+                    <h2>International<br> Symposium 
+                    </h2>
+                    <p><font color="blue">December 20-21, 2024</font></p>
+                    <h3>   The first international symposium <br>on Materials for Sustainable<br> Development (ISMSD 2024) is organized... </h3>
+                    <br>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div id="event3"></div>
+            <div id="event4"></div>
+        </div>
+        <div id="newsarea">
+            <div id="newsheader">
+                <h1 align="center">News and Awards</h1>
+            </div>
+            <div id="news1">
+                <img src="news_1.png" alt="" height="50%" width="100%" >
+                <div class="halfbox">
+                    <h3>Congratulations to Dr. Tanveer
+                        on Being Honored as an INSA
+                        Distinguished Lecture Fellow
+                        202/ in Engineering and
+                        Technology</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div id="news2">
+                <img src="news_2.png" alt="" height="50%" width="100%" >
+                <div class="halfbox">
+                    <h3>Congratulations Prof.
+                        Raghunath Sahoo on being
+                        Honored as Associate Fellow
+                        of INSA, New Delhi for the
+                        year 2024.</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div id="news3">
+                <img src="news_3.jpg" alt="" height="50%" width="100%" >
+                <div class="halfbox">
+                    <h3>Prof. Anirban Sengupta,
+                        Professor in the Department
+                        of CSE, has been appointed in
+                        the Editorial Board of Nature
+                        Scientific Reports wef July
+                        2024</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div id="news4">
+                <img src="news_4.png" alt="" height="50%" width="100%" >
+                <div class="halfbox">
+                    <h3>Professor Kapil Ahuja receives
+                        the prestigious National
+                        Teachers' Awards 2024 from
+                        the Honorable President of
+                        India.
+                    </h3>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+        <div id="proarea">
+            <div id="proheader">
+                <h1 align="center">Visiting Distinguished Professors & Visiting Professors</h1>
+            </div>
+            <div id="pro1">
+                <img src="professor_1.jpg" alt="" height="50%" width="100%" >
+                <div class="halfbox">
+                    <h2>Prof. Biman Nath
+                    </h2>
+                    <h3>
+                        Visiting Distinguished<br>
+                        Professor</h3>
+                        
+                    <p>  Astronomy, Astrophysics and<br>
+                        Space Engineering</p> 
+                    <br>
+                    <br>
+                    <br>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div id="pro2">
+                <img src="professor_2.jpg" alt="" height="50%" width="100%" >
+                <div class="halfbox">
+                    <h2>Prof. Andreas Kirschning
+                    </h2>
+                    <h3>
+                        Visiting Distinguished
+                        Professor</h3>
+                    <p>Chemistry</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div id="pro3">
+                <img src="professor_3.jpg" alt="" height="50%" width="100%" >
+                <div class="halfbox">
+                    <h2>Dr. Akhilesh Gupta
+                    </h2>
+                    <h3>
+                        Visiting Distinguished
+                        Professor</h3>
+                    <p>CE</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div id="pro4">
+                <img src="professor_4.jpeg" alt="" height="50%" width="100%" >
+                <div class="halfbox">
+                    <h2>Prof. Kausik Chaudhuri
+                    </h2>
+                    <h3>
+                        Visiting Professor
+                     </h3>
+                    <p>SHSSv</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+        <div id="reacharea">
+            <div id="reachbox">
+                <img src="how_to_reach.png" alt="" height="100%" width="100%">
+            </div>
+        </div>
+        <div id="glimpsarea">
+            <div id="glimpsheader">
+                <h1 align="center">Glimpses</h1>
+            </div>
+            <div id="glimps1">
+                <img src="glimps_1.jpg" alt="" height="50%" width="100%" >
+                <div class="halfbox">
+                    <h2>Student Life
+                    </h2>
+                    <h3>
+                        Campus Life of Students.</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div id="glimps2">
+                <img src="glimps_2.jpg" alt="" height="50%" width="100%" >
+                <div class="halfbox">
+                    <h2>Clubs
+                    </h2>
+                    <h3>
+                        Clubs and Societies.</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div id="glimps3">
+                <img src="glimps_3.jpg" alt="" height="50%" width="100%" >
+                <div class="halfbox">
+                    <h2>Activities
+                    </h2>
+                    <h3>
+                        Memorable Moments.</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div id="glimps4">
+                <img src="glimps_4.jpg" alt="" height="50%" width="100%" >
+                <div class="halfbox">
+                    <h2>Campus
+                    </h2>
+                    <h3>
+                        Project Progress.</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+        <div id="linksarea"></div>
+        <div id="marquearea">
+            <p align="center"><font color="white">© 2019 - All Rights with IIT Indore<br>Design by: Rajkumar</font></p>
+        </div>
+       </div>
+</body>
+</html>
